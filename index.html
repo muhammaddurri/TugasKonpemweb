@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>konseppemweb</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="" method="post">
+        <label for="nama">Nama</label>
+        <input type="text"id="nama" name="nama" required>
+
+        <label for="email">email</label>
+        <input type="email"id="email" name="email" required>
+
+        <label for="nomor">no telepon</label>
+        <input type="tel"id="nomor" name="nomor" required>
+
+        <label for="tanggal">Tanggal Lahir :</label>
+        <input type="date"id="tanngal" name="tanggal" required>
+
+        <label for="name">Jenis Kelamin : </label>
+        <select name="name" id="jenis">
+            <option selected disabled>Pilih Jenis Kelamin</option>
+            <option value="">Laki-laki</option>
+            <option value="">Perempuan</option>
+        </select>
+
+        <label for="name">Status</label>
+        <div class="status">
+            <input type="radio" name="job" id="pekerja"> 
+            <label for="male">Pekerja</label>
+    
+            <input type="radio" name="job" id="mahasiswa"> 
+            <label for="female">Mahasiswa</label>
+
+            <input type="radio" name="job" id="pelajar"> 
+            <label for="female">Pelajar</label>
+        </div>
+
+        <label for="name">Pesan atau Komentar</label>
+        <textarea rows="4" placeholder="Tambahkan Komentar Di Sini"></textarea>
+
+        <button type="submit">kirim</button>
+    </form>
+</body>
+</html>
